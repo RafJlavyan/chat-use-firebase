@@ -1,0 +1,35 @@
+.message {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.messageImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.messageContent {
+    padding: 10px;
+
+}
+
+.messageContent p {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0 10px 10px 10px ;
+    max-width: max-content;
+}
+
+.messageContent img {
+    width: 200px;
+    height: 200px;
+}
+
+.owner {
+    flex-direction: row-reverse;
+}

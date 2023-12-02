@@ -1,0 +1,31 @@
+.input {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    background-color: transparent;
+    width: 300px;
+}
+
+.input input::placeholder {
+    font-size: large;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+}
+
+.send svg {
+    font-size: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}

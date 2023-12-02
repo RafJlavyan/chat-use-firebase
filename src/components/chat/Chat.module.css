@@ -1,0 +1,33 @@
+.chat {
+    width: 65%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chatInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+    background-color: #64beb0;
+    border-radius: 0 10px 0 0;
+}
+
+.chatIcons {
+    font-size: 20px;
+}
+
+.chatIcons svg {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 71px);
+    overflow: auto;
+}
+

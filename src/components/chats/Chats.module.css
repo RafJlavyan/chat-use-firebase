@@ -1,0 +1,31 @@
+.chats {
+    border-top: 1px solid #14473F;
+    height: calc(100% - 50px);
+    overflow: auto;
+}
+
+.userChat {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.userChat:hover {
+    opacity: 0.5;
+}
+
+.userChatImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.lastMessage {
+    font-size: 14px;
+    color: #bcbcbc;
+}

@@ -1,0 +1,43 @@
+.sidebar {
+    width: 35%;
+    border-right: 2px solid #14473f;
+    background-color: #237d6e;
+    border-radius:10px 0 0 10px;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14473f;
+    padding: 10px;
+    border-radius:10px 0 0 0;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.userLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+.sidebar button {
+    position: absolute;
+    bottom: 3%;
+    left: 30%;
+    right: 30%;
+}
+
+.chatUsers {
+    height: calc(100% - 140px);
+    overflow: auto;
+}
